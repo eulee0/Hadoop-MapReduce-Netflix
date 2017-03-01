@@ -20,6 +20,7 @@ import java.util.StringTokenizer;
 public class TopTenMovie {
 	public static void main(String[] args) throws IOException {
 		if (args.length != 3) {
+			System.out.println("Something went wrong.");
 			System.exit(0);
 		}
 		String ratingsFile = args[0];
@@ -86,7 +87,8 @@ public class TopTenMovie {
 		List<String> list = new ArrayList<String>(ratings.keySet());
 		PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(output)));
 		for (int i = 0; i < 10; i++) {
-			printWriter.println(list.get(i) + ", " + titles.get(list.get(i)) + ", " + ratings.get(list.get(i)));
+			printWriter.println(
+					i + 1 + " :  " + list.get(i) + ", " + titles.get(list.get(i)) + ", " + ratings.get(list.get(i)));
 		}
 		printWriter.close();
 	}

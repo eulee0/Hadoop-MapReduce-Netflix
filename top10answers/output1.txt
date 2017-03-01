@@ -1,0 +1,10 @@
+1 :  790, 2000 A Single Girl, 2648853.0
+2 :  13828, 1995 Son of Gascogne, 2648853.0
+3 :  4128, 1930 Under the Roofs of Paris, 2643057.0
+4 :  15201, 1982 The Atomic Cafe, 2643057.0
+5 :  12496, 2000 Whispers: An Elephant's Tale, 2641559.0
+6 :  10462, 2001 Cruel and Unusual, 2641459.0
+7 :  12812, 2001 Madonna: The Drowned World Tour 2001, 2637879.0
+8 :  10676, 1933 The Kennel Murder Case / Nancy Drew, Reporter: Double Feature, 2637879.0
+9 :  2039, 2003 No Doubt: Rock Steady Live, 2637879.0
+10 :  11673, 2002 Drumline, 2637879.0
